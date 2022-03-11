@@ -1,6 +1,8 @@
-package com.example.domain.response_handler
+package com.example.data
 
+import com.example.domain.GeneralResponse
 import retrofit2.Response
+
 
 /**
  * Created by Davit Soitashvili on 11.03.22

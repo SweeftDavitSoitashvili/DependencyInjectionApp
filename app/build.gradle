@@ -35,5 +35,13 @@ dependencies {
 
     // modules
     implementation project(path: ':presentation')
+    implementation project(path: ':data')
+    implementation project(path: ':domain')
+
+    // Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+
+    // Koin for Kotlin apps
+    implementation "io.insert-koin:koin-android:3.1.4"
 
 }

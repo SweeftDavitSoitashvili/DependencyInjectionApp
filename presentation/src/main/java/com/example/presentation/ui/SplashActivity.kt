@@ -1,4 +1,4 @@
-package com.example.presentation
+package com.example.presentation.ui
 
 import android.content.Intent
 import android.os.Bundle

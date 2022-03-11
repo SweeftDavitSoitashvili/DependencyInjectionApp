@@ -3,9 +3,9 @@ package com.example.data.repository
 import com.example.data.datasource.TodoDataSource
 import com.example.data.dto.Todo
 import com.example.data.mapper.TodoMapper
+import com.example.domain.GeneralResponse
 import com.example.domain.model.TodoDomain
 import com.example.domain.repository.TodoRepository
-import com.example.domain.response_handler.GeneralResponse
 
 /**
  * Created by Davit Soitashvili on 11.03.22
