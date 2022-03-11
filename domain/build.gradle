@@ -1,5 +1,5 @@
 plugins {
-    id 'com.android.application'
+    id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
 }
 
@@ -7,13 +7,11 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.example.dependencyinjectionapp"
         minSdk 26
         targetSdk 31
-        versionCode 1
-        versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
     }
 
     buildTypes {
@@ -31,9 +29,4 @@ android {
     }
 }
 
-dependencies {
-
-    // modules
-    implementation project(path: ':presentation')
-
-}
+dependencies {}

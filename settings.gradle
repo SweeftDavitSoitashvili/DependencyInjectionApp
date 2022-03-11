@@ -14,3 +14,7 @@ dependencyResolutionManagement {
 }
 rootProject.name = "DependencyInjectionApp"
 include ':app'
+include ':data'
+include ':domain'
+include ':presentation'
+include ':base'
